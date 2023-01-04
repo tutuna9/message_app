@@ -14,55 +14,46 @@
  *= require_self
  */
  body {
-    overflow: hidden;
+   height: calc(100vh - 56px);
  }
  .msg-form {
-    width: 100%;
-    height: 56px;
-    padding: 10px;
+   width: 100%;
+   height: 56px;
+   padding: 10px;
  }
-
  #single_room {
-    height: calc(100vh - 150px);
+   height: calc(100vh - 150px);
  }
-
  #messages {
-    height: calc(100vh - 150px);
-    overflow-x: hidden;
-    overflow-y: scroll;
+   height: calc(100vh - 150px);
+   overflow-x: hidden;
+   overflow-y: scroll;
  }
-
  #room_container {
-    height: 100vh;
-    margin-right: 0px !important;
+   height: calc(100vh - 56px);
+   margin-right: 0px !important;
  }
-
  #side_panel {
-    height: 100vh;
-    margin-right: 0px !important;
-    overflow-x: hidden;
-    overflow-y: scroll;
-    margin-bottom: 55px;
+   height: calc(100vh - 56px);
+   margin-right: 0px !important;
+   overflow-x: hidden;
+   overflow-y: scroll;
+   padding-left: 2em;
  }
-
  #chatroom_container {
-    height: 100vh;
-    margin-right: 0px !important;
-    overflow-x: hidden;
-    overflow-y: hidden;
+   height: calc(100vh - 56px);
+   margin-right: 0px !important;
  }
-
  .msg-content {
-    width: 80%;
-    margin-right: 5px;
+   width: 80%;
+   margin-right: 5px;
  }
-
  .message-box {
-    word-wrap: break-word;
-    width: fit-content;
-    padding: 5px;
-    border-radius: 10px;
-    margin-bottom: 10px;
-    background-color: #555555;
-    padding: 10px;
+   word-wrap: break-word;
+   width: fit-content;
+   max-width: 40%;
+   padding: 10px;
+   border-radius: 10px;
+   margin-bottom: 10px;
+   background-color: #555555;
  }
